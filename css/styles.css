@@ -289,6 +289,7 @@ body {
 
 .backdrop {
   position: fixed;
+  z-index: 2;
   top: 0;
   left: 0;
   width: 100%;
@@ -305,7 +306,7 @@ body {
 
 .modal {
   position: absolute;
-  /* z-index: 2; */
+  /* z-index: 1; */
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
@@ -460,7 +461,7 @@ body {
 .item-function {
   display: block;
   position: absolute;
-  z-index: -1;
+  /* z-index: -1; */
 }
 
 .title-function-item {
@@ -482,7 +483,7 @@ body {
   top: 50%;
   left: 50%;
   transform: translate(-50%, 110%);
-  z-index: -1;
+  /* z-index: -1; */
 }
 
 /*======== END FUNCTION ==========*/
