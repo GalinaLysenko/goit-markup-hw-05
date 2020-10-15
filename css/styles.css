@@ -54,6 +54,7 @@ body {
   border: 0;
   clip: rect(0 0 0 0);
   overflow: hidden;
+  z-index: 1;
 }
 
 /* ======== HEADER =========*/
@@ -304,6 +305,7 @@ body {
 
 .modal {
   position: absolute;
+  /* z-index: 2; */
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
@@ -324,6 +326,8 @@ body {
   border: 1px solid rgba(0, 0, 0, 0.1);
   box-sizing: border-box;
   border-radius: 50%;
+  margin-top: 8px;
+  margin-right: 8px;
 }
 
 .close-button::before {
@@ -451,6 +455,7 @@ body {
 .item-function {
   display: block;
   position: absolute;
+  z-index: -1;
 }
 
 .title-function-item {
@@ -472,6 +477,7 @@ body {
   top: 50%;
   left: 50%;
   transform: translate(-50%, 110%);
+  z-index: -1;
 }
 
 /*======== END FUNCTION ==========*/
@@ -829,6 +835,7 @@ body {
 
 .title-owerlay {
   position: absolute;
+  z-index: 1;
   top: 0;
   left: 0;
   width: 100%;
