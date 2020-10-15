@@ -340,6 +340,11 @@ body {
   margin-right: auto;
 }
 
+.modal-field {
+  display: block;
+  flex-direction: column;
+}
+
 /* ======== END HERO =========*/
 
 /* ======== ACHIVE =========*/
